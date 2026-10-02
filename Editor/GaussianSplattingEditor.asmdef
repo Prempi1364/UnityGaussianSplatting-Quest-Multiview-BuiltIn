@@ -1,0 +1,14 @@
+{
+  "allowUnsafeCode": true,
+  "references": [
+    "GaussianSplatting",
+    "Unity.Burst",
+    "Unity.Collections",
+    "Unity.Mathematics"
+  ],
+  "autoReferenced": true,
+  "includePlatforms": [
+    "Editor"
+  ],
+  "name": "GaussianSplattingEditor"
+}
