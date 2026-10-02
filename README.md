@@ -40,6 +40,12 @@ This release receives a source-content audit and separate C# compilation checks 
 
 There are related public Quest multiview implementations for URP, including [Aras PR #225](https://github.com/aras-p/UnityGaussianSplatting/pull/225). This fork claims a specific Built-in integration, not the invention of per-eye rendering or the first Gaussian multiview renderer.
 
+## Apple SHARP PLY compatibility
+
+The importer retains Prempi's adaptation for binary little-endian Gaussian PLY files without higher-order spherical-harmonic properties. Missing attributes are zero-filled; when `f_rest_0` is absent, the importer applies the SHARP coordinate and quaternion conversion. This is a format heuristic, so other degree-zero PLY exporters may need a different coordinate conversion. No new SHARP-file import or visual test is claimed for this isolated release.
+
+This is file-format compatibility only. No Apple implementation, model weights, inference code, generated PLY, images or accompanying scene JSON is distributed or downloaded. Package JSON contains only package metadata/dependencies; the release manifest contains only package-relative filenames, sizes and hashes. Import compatibility does not grant rights to SHARP models or their outputs. Apple's [model license](https://github.com/apple-aiml-research/ml-sharp/blob/main/LICENSE_MODEL) restricts model use to non-commercial scientific research and excludes commercial product development. Check applicable model, output and image rights separately. This project is independent and is not endorsed by Apple.
+
 ## Attribution and license
 
 Original Unity implementation: **Aras Pranckevičius**. Built-in Quest multiview modifications and this source release: **Prempi**. Existing upstream VR work by **ninjamode** is acknowledged. See [LICENSE.md](LICENSE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

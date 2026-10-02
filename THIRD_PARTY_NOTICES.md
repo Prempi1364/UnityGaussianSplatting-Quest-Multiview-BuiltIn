@@ -11,3 +11,5 @@ The complete upstream MIT notice is retained in `LICENSE.md`. Existing license h
 Unity Burst, Collections and Mathematics are external Package Manager dependencies, not redistributed source in this export. Their own package licenses apply.
 
 Built-in Quest multiview modifications and packaging by Prempi, 2026, are offered under MIT together with the renderer. This package contains no Gaussian model data, training software or example datasets.
+
+The importer includes file-format compatibility for Apple SHARP-style PLY files. No Apple implementation, pretrained model, inference software, generated data or scene JSON is included. Apple's model license is separate from this package's MIT license and restricts model use to non-commercial research: https://github.com/apple-aiml-research/ml-sharp/blob/main/LICENSE_MODEL. Format compatibility is not an Apple endorsement or a grant of model/output rights.

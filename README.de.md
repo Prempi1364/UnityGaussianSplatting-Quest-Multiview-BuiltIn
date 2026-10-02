@@ -33,6 +33,12 @@ Das vorhandene Testprotokoll des Quellprojekts berichtet für diesen Ansatz eine
 
 Ähnliche Quest-Multiview-Lösungen für URP existieren bereits, etwa [Aras PR #225](https://github.com/aras-p/UnityGaussianSplatting/pull/225). Dieser Fork dokumentiert die konkrete Built-in-Integration und beansprucht keine weltweite Erstimplementierung.
 
+## Apple-SHARP-PLY-Kompatibilität
+
+Der Importer enthält Prempis Anpassung für binäre Little-Endian-Gaussian-PLY-Dateien ohne höhere Kugelflächenfunktionen. Fehlende Attribute werden mit null gefüllt; fehlt `f_rest_0`, erfolgt die SHARP-Koordinaten- und Quaternionumrechnung. Diese Formaterkennung ist eine Heuristik: Andere PLY-Exporter mit Grad null können eine andere Koordinatenumrechnung brauchen. Ein neuer SHARP-Import oder Sichttest des isolierten Pakets wird nicht behauptet.
+
+Enthalten ist ausschließlich die Dateiformat-Anpassung. Keine Apple-Implementierung, Modellgewichte, Inferenzsoftware, erzeugten PLY-Dateien, Bilder oder begleitenden Szenen-JSON-Dateien werden mitgeliefert oder heruntergeladen. Die Paket-JSON enthält nur Paketbeschreibung und Abhängigkeiten; das Dateimanifest enthält ausschließlich paketrelative Dateinamen, Größen und Prüfsummen. Importkompatibilität erteilt keine Rechte an SHARP-Modellen oder deren Ergebnissen. Apples [Modelllizenz](https://github.com/apple-aiml-research/ml-sharp/blob/main/LICENSE_MODEL) beschränkt die Modellnutzung auf nichtkommerzielle wissenschaftliche Forschung und schließt kommerzielle Produktentwicklung aus. Modell-, Ergebnis- und Bildrechte getrennt prüfen. Dieses Projekt ist unabhängig und wird nicht von Apple unterstützt.
+
 ## Urheber und Lizenz
 
 Ursprünglicher Unity-Renderer: **Aras Pranckevičius**. Built-in-Quest-Multiview-Anpassungen und dieser Export: **Prempi**. Vorhandene VR-Arbeit von **ninjamode** wird ebenfalls genannt. Die MIT-Lizenz und eingebettete Hinweise anderer Mitwirkender bleiben erhalten; siehe [LICENSE.md](LICENSE.md) und [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
