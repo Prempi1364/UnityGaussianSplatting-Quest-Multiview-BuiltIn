@@ -6,6 +6,10 @@ Prempi's source-only fork of [Aras Pranckevičius' UnityGaussianSplatting](https
 
 The Unity project stays in **single-pass multiview**. Gaussian splats use a separate draw and composite for each eye, while other compatible scene meshes retain their normal multiview rendering path. This package targets **Meta Quest 3, Vulkan, OpenXR and Unity's Built-in Render Pipeline**.
 
+## Supported configuration only
+
+**This version is specifically for Meta Quest 3, Vulkan/OpenXR, the Built-in Render Pipeline and single-pass multiview. It is not a drop-in replacement for all configurations supported by the original Aras importer. Normal Windows/desktop rendering and other rendering modes are not supported by this release; use the original upstream package for those workflows.** The maintainer reports that those original workflows no longer work with this adapted version. A future revision may restore broader compatibility, but no fix or release date is promised.
+
 ## What the fork changes
 
 - Detects stereo texture-array targets in the Built-in camera callback.

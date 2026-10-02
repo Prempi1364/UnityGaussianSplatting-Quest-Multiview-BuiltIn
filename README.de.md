@@ -6,6 +6,10 @@ Bereinigter Quellcode-Fork von Prempi, basierend auf [UnityGaussianSplatting von
 
 Das Unity-Projekt bleibt in **Single Pass Multiview**. Nur die Gaussian Splats werden getrennt für beide Augen gezeichnet und zusammengesetzt. Andere dafür geeignete Meshes behalten ihren normalen Multiview-Renderpfad. Zielkonfiguration: **Meta Quest 3, Vulkan, OpenXR und Unity Built-in Render Pipeline**.
 
+## Ausschließlich unterstützte Konfiguration
+
+**Diese Version ist speziell für Meta Quest 3, Vulkan/OpenXR, die Built-in Render Pipeline und Single-Pass Multiview gedacht. Sie ersetzt nicht alle Funktionen und Konfigurationen des ursprünglichen Aras-Importers. Normales Windows-/Desktop-Rendering und andere Rendering-Modi werden in diesem Release nicht unterstützt; dafür das ursprüngliche Aras-Paket verwenden.** Nach Angabe des Entwicklers funktionieren diese ursprünglichen Abläufe mit der angepassten Version nicht mehr. Eine spätere Überarbeitung kann die breitere Kompatibilität wiederherstellen; ein Fix oder Veröffentlichungstermin wird nicht zugesagt.
+
 ## Funktionsweise
 
 Der Renderer erkennt Stereo-Ziele als Texture2DArray. Er berechnet die Ansichten für beide Augen, zeichnet die Splats in die jeweilige Schicht eines Zwischenpuffers und überlagert das Ergebnis auf dem entsprechenden XR-Kamerabild. Eine zusätzliche Korrektur überführt die projizierten Ellipsenachsen der Splats von der CPU- in die GPU-Projektionsbasis. Sie behebt in der Zielkonfiguration den beobachteten Fehler, bei dem sich einzelne Splats mit der Kopfbewegung drehen.

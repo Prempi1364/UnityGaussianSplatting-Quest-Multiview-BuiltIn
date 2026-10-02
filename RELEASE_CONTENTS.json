@@ -180,13 +180,13 @@
     },
     {
       "path": "README.de.md",
-      "bytes": 6389,
-      "sha256": "2050e666d13dd79f28d0434aba0fdb2244f213a7d442212e8aa37f15f49cddd0"
+      "bytes": 7065,
+      "sha256": "da4b58a992f9b566554ac64dce226b62886d3323cf1932012c826daad7d4c63f"
     },
     {
       "path": "README.md",
-      "bytes": 6297,
-      "sha256": "305d956a9bb01286ff2bcbccf3a81a4f21cc75c890ec42be36131ce6d7f2e948"
+      "bytes": 6886,
+      "sha256": "f21ac500facd03aef70838506b14723690e26720e81c7abce817b4fb8b57d8e6"
     },
     {
       "path": "Runtime.meta",
