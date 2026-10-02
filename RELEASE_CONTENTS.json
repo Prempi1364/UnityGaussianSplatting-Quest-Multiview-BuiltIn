@@ -1,0 +1,387 @@
+{
+  "package": "com.prempi.gaussian-splatting.quest-multiview",
+  "version": "0.1.0",
+  "content": "Source code, Unity source metadata, package description and license notices only. No splat models, scenes, textures, game code, credentials or project settings.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 2654,
+      "sha256": "dde086e3cb7e81195927f924d4085a5f7d9fa5d0f0523ace8054ea4bb2c66f24"
+    },
+    {
+      "path": "Editor.meta",
+      "bytes": 172,
+      "sha256": "abbda70e9e58cb28ff93accef997a81420126dec4de5d070545af25b8ec5ef3e"
+    },
+    {
+      "path": "Editor/GaussianMoveTool.cs",
+      "bytes": 1263,
+      "sha256": "c9369c0a369d43f852d99ef7f3f1ac55c6111c0dfc3180de057c1441fac56e73"
+    },
+    {
+      "path": "Editor/GaussianMoveTool.cs.meta",
+      "bytes": 254,
+      "sha256": "c42affa08c7cd537af46e2a70b4a25bce012cf22a3f52ac805277542a9caa4b3"
+    },
+    {
+      "path": "Editor/GaussianRotateTool.cs",
+      "bytes": 2453,
+      "sha256": "3649d434997be8f017503bcdbe370fcb2465c1c5658e120e9b159f100b71f4a5"
+    },
+    {
+      "path": "Editor/GaussianRotateTool.cs.meta",
+      "bytes": 88,
+      "sha256": "a1a94bb2b4f76b2163aeab63eeea762ece83cb1d44702ce55bb30a5a81f47e2d"
+    },
+    {
+      "path": "Editor/GaussianScaleTool.cs",
+      "bytes": 2470,
+      "sha256": "224010da292b7ea35a8fd126e44a6a5b7aaf3634a445395cea4c56395db8f36b"
+    },
+    {
+      "path": "Editor/GaussianScaleTool.cs.meta",
+      "bytes": 88,
+      "sha256": "dc73ff8b119bd76262be1be3312a53c703858a9a687d5e0d2cbe6a713451cb49"
+    },
+    {
+      "path": "Editor/GaussianSplatAssetCreator.cs",
+      "bytes": 52599,
+      "sha256": "f1de09daf4a7bbd84104ef2df59b4cd9ded62a9d7faae9cdf9f682091ea1e38b"
+    },
+    {
+      "path": "Editor/GaussianSplatAssetCreator.cs.meta",
+      "bytes": 254,
+      "sha256": "c51b967e4ea40568bb2da0ef5ab5564f1892f661e4421de4dc460eac45c01072"
+    },
+    {
+      "path": "Editor/GaussianSplatAssetEditor.cs",
+      "bytes": 3045,
+      "sha256": "03284f01360fd5428de40536f15bfc56b6bebb756352f50fef461b7a955bc7f1"
+    },
+    {
+      "path": "Editor/GaussianSplatAssetEditor.cs.meta",
+      "bytes": 254,
+      "sha256": "07f286dcff480fbd7ca627064581fde98706c838ce107d47157252128c3e1615"
+    },
+    {
+      "path": "Editor/GaussianSplatRendererEditor.cs",
+      "bytes": 21404,
+      "sha256": "6412e2d06f0386d81ddfbb895f060754e56227d3b166309d12527e379f391f88"
+    },
+    {
+      "path": "Editor/GaussianSplatRendererEditor.cs.meta",
+      "bytes": 254,
+      "sha256": "6c174913a82b802d486b98807987a26376e0d3490b1a9ac9825c0b94162637ee"
+    },
+    {
+      "path": "Editor/GaussianSplattingEditor.asmdef",
+      "bytes": 263,
+      "sha256": "d932bb749c81a39e54a400a28f5cbcca181019b936bc408404f45122d9b32fb4"
+    },
+    {
+      "path": "Editor/GaussianSplattingEditor.asmdef.meta",
+      "bytes": 173,
+      "sha256": "040c2a64309ef49bfd0083b86ec9edad7ef0d1144fba97a659d49f3759e91c96"
+    },
+    {
+      "path": "Editor/GaussianTool.cs",
+      "bytes": 1184,
+      "sha256": "a4d6345977c4ef19a55c58e46cf629a64a699b5fe65d6a33f9e62d2059edef35"
+    },
+    {
+      "path": "Editor/GaussianTool.cs.meta",
+      "bytes": 254,
+      "sha256": "9991885beb6748786aed814555cb7074e9ad93194c081fddb05c11764cde2a17"
+    },
+    {
+      "path": "Editor/GaussianToolContext.cs",
+      "bytes": 7911,
+      "sha256": "18f2111e6ca19d6480bd47c173867baf690f9aeebbcd9785834d219d24a7b3ba"
+    },
+    {
+      "path": "Editor/GaussianToolContext.cs.meta",
+      "bytes": 88,
+      "sha256": "b41d54b7a152b0ebaca0cf14b6481095fdae8135a6d7bba91f1ec0b43faf45e6"
+    },
+    {
+      "path": "Editor/Utils.meta",
+      "bytes": 180,
+      "sha256": "9d9a5969b7bf8d2d225c6b64222b566e8e8e2dd91273578f4e6721fd52513988"
+    },
+    {
+      "path": "Editor/Utils/FilePickerControl.cs",
+      "bytes": 11619,
+      "sha256": "f6d18eadb2bd56764b51f6c30a97ab62126efda4d94d0c7ffb66be2ff5b9ad60"
+    },
+    {
+      "path": "Editor/Utils/FilePickerControl.cs.meta",
+      "bytes": 254,
+      "sha256": "fb0b14ac6023e0425698fc0d50fcc6c92e7e69b7f263d6dd7bb314ab23465c43"
+    },
+    {
+      "path": "Editor/Utils/GaussianFileReader.cs",
+      "bytes": 9608,
+      "sha256": "71b953820b092a82af52a6b8d0d9c8ca74b8cb034e9c4a94a0d208fcd230c623"
+    },
+    {
+      "path": "Editor/Utils/GaussianFileReader.cs.meta",
+      "bytes": 88,
+      "sha256": "7ebf4253c752a644bb7a28224dee728bbbdde9e0e9cb48e38c900ab6d3310239"
+    },
+    {
+      "path": "Editor/Utils/KMeansClustering.cs",
+      "bytes": 24202,
+      "sha256": "bb3bc610a08ebe300e003618ffa34613db9d7642d295d663276f30f427c64f90"
+    },
+    {
+      "path": "Editor/Utils/KMeansClustering.cs.meta",
+      "bytes": 254,
+      "sha256": "b8d6cb3257753b177735e78f54d3f934d7d582e2d455de9e249290f515022ba4"
+    },
+    {
+      "path": "Editor/Utils/PLYFileReader.cs",
+      "bytes": 4862,
+      "sha256": "47cf2dc8254d3eb3ef1f44d1c6c6d51f2279026171a61f9e0dbabbd468327f6a"
+    },
+    {
+      "path": "Editor/Utils/PLYFileReader.cs.meta",
+      "bytes": 254,
+      "sha256": "c018d0685d331e01530e77fa31d39f7016266b05dc173088a7fe4053be5df184"
+    },
+    {
+      "path": "Editor/Utils/SPZFileReader.cs",
+      "bytes": 9144,
+      "sha256": "7624bb982e48e0e29cbc24c6e39edaa4ceecaea4fa86b35c0c6e258cbf3d5f11"
+    },
+    {
+      "path": "Editor/Utils/SPZFileReader.cs.meta",
+      "bytes": 254,
+      "sha256": "2f5175fe1198e389985db29aa0d3f9575a634aef84f2148d2666bb6a3d63b08c"
+    },
+    {
+      "path": "Editor/Utils/TinyJsonParser.cs",
+      "bytes": 17202,
+      "sha256": "98a2d9aa8c826f7dff8da29b5fb647e9cfbb054f395f18afc986ee48079d36c5"
+    },
+    {
+      "path": "Editor/Utils/TinyJsonParser.cs.meta",
+      "bytes": 254,
+      "sha256": "f6cc40af0c315c9816b97e4fd3dd897c4f700e4ee3ffb8aae87f1ad656d36761"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1296,
+      "sha256": "2f032f347507e14289afa26754dc7b543df354b658c35a3d8e7d64a9337c1092"
+    },
+    {
+      "path": "package.json",
+      "bytes": 612,
+      "sha256": "4e5e4b2441a0e981c0240452b86039082194955d80ea69b473c26c052e3bb74c"
+    },
+    {
+      "path": "README.de.md",
+      "bytes": 5070,
+      "sha256": "98333ccbf44a4cd26e3ddeb773d9eb7310a9031a64084264bab48454a9d5a5a9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5098,
+      "sha256": "1f0d00a1de5601dc29519219cc7d9e9991e777c01c7743d4d72ba00f13d32a81"
+    },
+    {
+      "path": "Runtime.meta",
+      "bytes": 172,
+      "sha256": "48911f6ccb1d303645335c93bb77e8f64836238305ffcf38ef04c03b20ae60dc"
+    },
+    {
+      "path": "Runtime/GaussianCutout.cs",
+      "bytes": 2352,
+      "sha256": "70259a7128ae8ee95e1aacf21e0f170b15481c43250dde19de6a8ed513d1cbea"
+    },
+    {
+      "path": "Runtime/GaussianCutout.cs.meta",
+      "bytes": 254,
+      "sha256": "27aebf4affc361a253aeae6455961898098381a9297730c4dc963c666114efca"
+    },
+    {
+      "path": "Runtime/GaussianSplatAsset.cs",
+      "bytes": 9411,
+      "sha256": "4a1b282e99e40a3665f5fabe089bb27c4625ad3409f4fdeb983c2b36ddd0a2be"
+    },
+    {
+      "path": "Runtime/GaussianSplatAsset.cs.meta",
+      "bytes": 254,
+      "sha256": "cfb7f8bcedaa74bddb9bcced033a3e4b99cc19ed59940201d43a40626294fd78"
+    },
+    {
+      "path": "Runtime/GaussianSplatRenderer.cs",
+      "bytes": 66733,
+      "sha256": "07da64b8cfbc8b74d73958011d9de4deb5780f64a6a341b9eee68a4b02be2c6f"
+    },
+    {
+      "path": "Runtime/GaussianSplatRenderer.cs.meta",
+      "bytes": 809,
+      "sha256": "4c0a66e50b505302ac0809faa1fc26d73ac459b1665482d1e481a4e4ef69b13b"
+    },
+    {
+      "path": "Runtime/GaussianSplatting.asmdef",
+      "bytes": 166,
+      "sha256": "85423d8aad598801d2afa1488797a58b791dc14eb26825025e8d0d665dc77593"
+    },
+    {
+      "path": "Runtime/GaussianSplatting.asmdef.meta",
+      "bytes": 173,
+      "sha256": "b4e373789c10f04d3857805a983fb301f29fa3ecfdc027484d685603cb9d9b60"
+    },
+    {
+      "path": "Runtime/GaussianUtils.cs",
+      "bytes": 3417,
+      "sha256": "79c6a39f99fe4090f9f187ef8b5793306654a46045325f8a55cc2d5bb0bf99fd"
+    },
+    {
+      "path": "Runtime/GaussianUtils.cs.meta",
+      "bytes": 254,
+      "sha256": "5f0c64ce5424a7926108682070912cce909e136f564b0a911f07cab42bba0ac0"
+    },
+    {
+      "path": "Runtime/GpuSorting.cs",
+      "bytes": 9567,
+      "sha256": "e0b0f8f41d47aa3cb16ecab66a300d9a80a84a0539d44853ef300bd22fed032b"
+    },
+    {
+      "path": "Runtime/GpuSorting.cs.meta",
+      "bytes": 254,
+      "sha256": "90288947480a125be24cf1a97774b086baf944f63ec3e2892c86b8dfe3e4e884"
+    },
+    {
+      "path": "Shaders.meta",
+      "bytes": 172,
+      "sha256": "31f9dd5123219827bd66c8e3172bfcf8d275d5356a7c81f16f8537b0bf25a1d7"
+    },
+    {
+      "path": "Shaders/DeviceRadixSort.hlsl",
+      "bytes": 18600,
+      "sha256": "b1f32b7f530bca2241c76d115c61909455301fcc58cbf689e62fb018791bdd40"
+    },
+    {
+      "path": "Shaders/DeviceRadixSort.hlsl.meta",
+      "bytes": 168,
+      "sha256": "cca88c6ee5230a77436a10023e8a22f69b39ae6b19dd5397e3c856db59d72a08"
+    },
+    {
+      "path": "Shaders/GaussianComposite.shader",
+      "bytes": 1698,
+      "sha256": "1e54ded17de5893903797c56f84baeefeac5a6ab9f9e872e80e4ebe385c89313"
+    },
+    {
+      "path": "Shaders/GaussianComposite.shader.meta",
+      "bytes": 213,
+      "sha256": "52e172803b4a10f6747a8f36568e51a2adabbef66a96a8965f1bac88615be38d"
+    },
+    {
+      "path": "Shaders/GaussianDebugRenderBoxes.shader",
+      "bytes": 2714,
+      "sha256": "a661881f3e38be39fbbec515e362baff487a2ce2e0850060d33235f016b0c8ab"
+    },
+    {
+      "path": "Shaders/GaussianDebugRenderBoxes.shader.meta",
+      "bytes": 213,
+      "sha256": "e3db93aefeec43ffafecee00803a6e1eb236d6d59e8838625ff477578029a9a1"
+    },
+    {
+      "path": "Shaders/GaussianDebugRenderPoints.shader",
+      "bytes": 1549,
+      "sha256": "2a46dd2c877ac67545ddc1f0974005dafa8db9ee9cf06d78b22e933260ae4657"
+    },
+    {
+      "path": "Shaders/GaussianDebugRenderPoints.shader.meta",
+      "bytes": 213,
+      "sha256": "f3ceb5b3b8c74d8385b364d044c43e9a56349419bb6c872df52abb8f7b651688"
+    },
+    {
+      "path": "Shaders/GaussianSplatting.hlsl",
+      "bytes": 25872,
+      "sha256": "ee97a8f42c42b067d53e1bf8d7b9bb90a4aa364400d6f3491d860120b75a7079"
+    },
+    {
+      "path": "Shaders/GaussianSplatting.hlsl.meta",
+      "bytes": 168,
+      "sha256": "a4a2309837855ae2263f6509a416017e0fba43e9322721fe6d5439aaae15e5e0"
+    },
+    {
+      "path": "Shaders/GpuSortFidelityFX.hlsl",
+      "bytes": 1560,
+      "sha256": "38d230783508a554e5dbe8a2836b57c40fada7fb602bd6d4a0dd80f7d6664b66"
+    },
+    {
+      "path": "Shaders/GpuSortFidelityFX.hlsl.meta",
+      "bytes": 161,
+      "sha256": "56a2aeddb2e11520d0dac4994de5975551755e130871c52b44be8e7f222038b0"
+    },
+    {
+      "path": "Shaders/RenderGaussianSplats.shader",
+      "bytes": 4187,
+      "sha256": "a151d956bbbd790be98a86b1bbd9baa772ea7a0204281d0d2a7bcf2b2a43fdf4"
+    },
+    {
+      "path": "Shaders/RenderGaussianSplats.shader.meta",
+      "bytes": 213,
+      "sha256": "bc253aa281e7799cdca2c20956c4a51eb4f98021c19d45f318a516a881728981"
+    },
+    {
+      "path": "Shaders/SortCommon.hlsl",
+      "bytes": 26585,
+      "sha256": "3d4a27a000d3ef4047ac8a8fcc5380dcd1f37179d25b0d6e04066656fd8157ff"
+    },
+    {
+      "path": "Shaders/SortCommon.hlsl.meta",
+      "bytes": 168,
+      "sha256": "56d946511a430ec762f450f9616f39c48193a63054417a169248652ca66c93fa"
+    },
+    {
+      "path": "Shaders/SphericalHarmonics.hlsl",
+      "bytes": 13790,
+      "sha256": "1a4966d447c4f981247dd9a5c1c37307ac18c37051f733e66eea53aec26ee2fe"
+    },
+    {
+      "path": "Shaders/SphericalHarmonics.hlsl.meta",
+      "bytes": 168,
+      "sha256": "c9dae137fcf092a778594455f51941c96d83b2211da96ab2be3c2833d536dfa6"
+    },
+    {
+      "path": "Shaders/SplatUtilities_DeviceRadixSort.compute",
+      "bytes": 25645,
+      "sha256": "8f13a2ea5fedd53d3248d6cc4bf6d15b53ecc6414a217bf78f1292f2e472ce4d"
+    },
+    {
+      "path": "Shaders/SplatUtilities_DeviceRadixSort.compute.meta",
+      "bytes": 161,
+      "sha256": "bceecaa33e0ea7a9b60774dd3e955b45c9a8d0daea72b082a49e311cbee4709a"
+    },
+    {
+      "path": "Shaders/SplatUtilities_FidelityFX.compute",
+      "bytes": 25552,
+      "sha256": "f3ac8060cc2cc96eb14dc6cfa79041660b4ec1f734082dcc16ffa510a37b9d0f"
+    },
+    {
+      "path": "Shaders/SplatUtilities_FidelityFX.compute.meta",
+      "bytes": 161,
+      "sha256": "d0450649ae007454900f2da4c60b3f8cf42d2415ae80196470388659282e6fa1"
+    },
+    {
+      "path": "Shaders/SplatUtilities.compute",
+      "bytes": 23757,
+      "sha256": "43e873b16d8ae1b3f78ed805006e6d22a2dbb0d365ccce62e126940a8864cb28"
+    },
+    {
+      "path": "Shaders/SplatUtilities.compute.meta",
+      "bytes": 168,
+      "sha256": "4028271b4230b57e3450dab0a7f68accc9f3a25cf691445639f05a998e68f0fe"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1654,
+      "sha256": "1944fc6c3d7db59af46413b4928aeb136b6eff01f2a3ddb87b7bf7000c247b5e"
+    }
+  ]
+}
