@@ -1,0 +1,9 @@
+{
+  "allowUnsafeCode": true,
+  "references": [
+    "Unity.Collections",
+    "Unity.Mathematics"
+  ],
+  "autoReferenced": true,
+  "name": "GaussianSplatting"
+}
