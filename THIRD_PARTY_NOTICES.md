@@ -10,6 +10,6 @@ The complete MIT license and upstream copyright notices are retained in `LICENSE
 
 Unity Burst, Collections and Mathematics are external Package Manager dependencies. Their source is not included here, and their own package licenses apply.
 
-My Built-in Quest multiview and importer adaptations are MIT licensed as part of this package: Prempi, 2026.
+Built-in Quest multiview and importer adaptations: Prempi, 2026, MIT.
 
 The SHARP PLY import adaptation includes no Apple code, model weights, inference software or generated data. Apple's model license applies separately and restricts model use to non-commercial scientific research: https://github.com/apple-aiml-research/ml-sharp/blob/main/LICENSE_MODEL. The import feature does not grant rights to Apple's models or outputs. This project is independent of Apple.

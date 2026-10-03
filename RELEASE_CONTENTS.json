@@ -1,6 +1,6 @@
 {
   "package": "com.prempi.gaussian-splatting.quest-multiview",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "content": "Source code, Unity source metadata, package description and license notices only. No splat models, scenes, textures, game code, credentials or project settings.",
   "files": [
     {
@@ -176,17 +176,17 @@
     {
       "path": "package.json",
       "bytes": 631,
-      "sha256": "c971e1ada2169573d32819e135bfda00aa5de6153d6839e2657cd931996f51bd"
+      "sha256": "fe5a44e240d45fe4484457441db8e887127f2f59f40b00f4957ea1e7a3556877"
     },
     {
       "path": "README.de.md",
-      "bytes": 7019,
-      "sha256": "8f23e9755cd755f652c38bf0c2bc6629df2b2a6c07aa5469790c94354cce9675"
+      "bytes": 6188,
+      "sha256": "043fc02e61b0d7c0889ec0de0f007c3394d38decf2274ffe9e19e606604b5961"
     },
     {
       "path": "README.md",
-      "bytes": 6342,
-      "sha256": "e26e3a585fd1844a2b61c6541fbaf363be80287bbeb697244162d182d970faf2"
+      "bytes": 5721,
+      "sha256": "37230dacd02a275d5bc38d24f046a951d55b28f43d04a3e06f3ea54db72f8da0"
     },
     {
       "path": "Runtime.meta",
@@ -380,8 +380,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1859,
-      "sha256": "7f116bad99b086dc61df96fa5091c466c68c9b549e75fd1d184f6b6505ee4bd3"
+      "bytes": 1820,
+      "sha256": "f885fd4b78825c0fa9eed72cd42473f788b5a6415151d94b2ae7e259b543e3c2"
     }
   ]
 }
