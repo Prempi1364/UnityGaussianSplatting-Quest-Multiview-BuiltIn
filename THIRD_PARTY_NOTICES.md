@@ -1,15 +1,15 @@
 # Third-party notices
 
-The complete upstream MIT notice is retained in `LICENSE.md`. Existing license headers and embedded notices are preserved in source files.
+The complete MIT license and upstream copyright notices are retained in `LICENSE.md`. Source files retain their existing license headers and embedded notices.
 
 - **UnityGaussianSplatting** — Aras Pranckevičius, copyright 2023, MIT. https://github.com/aras-p/UnityGaussianSplatting
-- **Upstream VR work** — Constantin Kleinbeck (ninjamode) / Unity-VR-Gaussian-Splatting, MIT. Its copyright notice, `Copyright (c) 2024 Aras Pranckevičius & Constantin Kleinbeck`, is retained alongside the original copyright and full MIT terms in `LICENSE.md`. https://github.com/ninjamode/Unity-VR-Gaussian-Splatting
-- **DeviceRadixSort / GPUSorting** — Thomas Smith, 2024, MIT. The full permission and disclaimer notices are embedded in `Shaders/DeviceRadixSort.hlsl` and `Shaders/SortCommon.hlsl`; the C# adapter retains its attribution. https://github.com/b0nes164/GPUSorting
-- **Embedded TinyJSON parser** — Alex Parker, copyright 2018, MIT. The complete notice is retained in `Editor/Utils/TinyJsonParser.cs`, whose header identifies the embedded upstream revision. https://github.com/pbhogan/TinyJSON
-- **Spherical harmonics rotation** — based on Andrew Willmott's sh-lib, identified by the existing shader header as Unlicense / public domain. https://github.com/andrewwillmott/sh-lib
+- **Earlier VR contributions** — Constantin Kleinbeck (GitHub username: ninjamode), MIT. The notice `Copyright (c) 2024 Aras Pranckevičius & Constantin Kleinbeck` is retained in `LICENSE.md`. https://github.com/ninjamode/Unity-VR-Gaussian-Splatting
+- **DeviceRadixSort / GPUSorting** — Thomas Smith, 2024, MIT. Full license notices are embedded in `Shaders/DeviceRadixSort.hlsl` and `Shaders/SortCommon.hlsl`; the C# adapter retains its attribution. https://github.com/b0nes164/GPUSorting
+- **Embedded TinyJSON parser** — Alex Parker, copyright 2018, MIT. The complete notice is retained in `Editor/Utils/TinyJsonParser.cs`; its header identifies the upstream revision. https://github.com/pbhogan/TinyJSON
+- **Spherical harmonics rotation** — based on Andrew Willmott's sh-lib, credited in the shader header as Unlicense / public domain. https://github.com/andrewwillmott/sh-lib
 
-Unity Burst, Collections and Mathematics are external Package Manager dependencies, not redistributed source in this export. Their own package licenses apply.
+Unity Burst, Collections and Mathematics are external Package Manager dependencies. Their source is not included here, and their own package licenses apply.
 
-Built-in Quest multiview modifications and packaging by Prempi, 2026, are offered under MIT together with the renderer. This package contains no Gaussian model data, training software or example datasets.
+My Built-in Quest multiview and importer adaptations are MIT licensed as part of this package: Prempi, 2026.
 
-The importer includes file-format compatibility for Apple SHARP-style PLY files. No Apple implementation, pretrained model, inference software, generated data or scene JSON is included. Apple's model license is separate from this package's MIT license and restricts model use to non-commercial research: https://github.com/apple-aiml-research/ml-sharp/blob/main/LICENSE_MODEL. Format compatibility is not an Apple endorsement or a grant of model/output rights.
+The SHARP PLY import adaptation includes no Apple code, model weights, inference software or generated data. Apple's model license applies separately and restricts model use to non-commercial scientific research: https://github.com/apple-aiml-research/ml-sharp/blob/main/LICENSE_MODEL. The import feature does not grant rights to Apple's models or outputs. This project is independent of Apple.

@@ -5,12 +5,12 @@
     "com.unity.mathematics": "1.3.2",
     "com.unity.burst": "1.8.29"
   },
-  "description": "Prempi fork of Aras UnityGaussianSplatting: per-eye splat rendering and projection-axis correction for Quest 3 Vulkan/OpenXR while the Built-in project stays in single-pass multiview. Source only; no model data.",
+  "description": "Gaussian Splatting for Quest 3, Built-in Render Pipeline and Vulkan/OpenXR single-pass multiview. Per-eye splat rendering, PLY/SPZ import and SHARP-style PLY support. MIT fork of Aras UnityGaussianSplatting by Prempi. Source only.",
   "unity": "6000.0",
   "author": {
     "name": "Prempi"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "displayName": "Gaussian Splatting - Quest Multiview (Built-in)"
 }
